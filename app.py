@@ -61,7 +61,7 @@ if not st.session_state.authenticated:
         
         if st.button("Activate System"):
             # Set your preferred key here
-            if key == "ADMIN2025" and org.strip() != "":
+            if key == "Ahsan123" and org.strip() != "":
                 st.session_state.authenticated = True
                 st.session_state.org_name = org
                 st.rerun()
